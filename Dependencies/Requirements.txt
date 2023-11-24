@@ -3,7 +3,7 @@ torchvision==0.16.0
 fsspec==2023.6.0
 fastapi
 kaleido
-python-multipart
+python-multipart 
 uvicorn
 cohere
 tiktoken
