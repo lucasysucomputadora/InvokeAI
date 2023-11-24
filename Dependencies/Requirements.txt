@@ -1,20 +1,20 @@
-pip install --force-reinstall torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121 
-pip install --force-reinstall fsspec==2023.6.0
-pip install --force-reinstall fastapi
-pip install --force-reinstall kaleido
-pip install --force-reinstall python-multipart
-pip install --force-reinstall uvicorn
-pip install --force-reinstall cohere
-pip install --force-reinstall tiktoken
-pip install --force-reinstall jedi==0.19.1
-pip install --force-reinstall numpy==1.25.2
-pip install --force-reinstall tensorflow-probability==0.23.0
-pip install --force-reinstall decorator==4.4.2
-pip install --force-reinstall absl-py==1.4.0
-pip install --force-reinstall requests==2.31.0
-pip install --force-reinstall dependency_injector diffusers einops eventlet facexlib flask_cors flask_socketio flaskwebgui
-pip install --force-reinstall kornia omegaconf pudb pyreadline3 pytorch-lightning realesrgan streamlit taming-transformers-rom1504 test-tube torch-fidelity
-pip install --force-reinstall torchmetrics transformers picklescan python-socketio==5.10.0 getpass_asterisk huggingface-hub
-pip install --force-reinstall pillow==10.0.1 xformers==0.0.23.dev687 
+pip install -q --force-reinstall torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121 
+pip install -q --force-reinstall fsspec==2023.6.0
+pip install -q --force-reinstall fastapi
+pip install -q --force-reinstall kaleido
+pip install -q --force-reinstall python-multipart
+pip install -q --force-reinstall uvicorn
+pip install -q --force-reinstall cohere
+pip install -q --force-reinstall tiktoken
+pip install -q --force-reinstall jedi==0.19.1
+pip install -q --force-reinstall numpy==1.25.2
+pip install -q --force-reinstall tensorflow-probability==0.23.0
+pip install -q --force-reinstall decorator==4.4.2
+pip install -q --force-reinstall absl-py==1.4.0
+pip install -q --force-reinstall requests==2.31.0
+pip install -q --force-reinstall dependency_injector diffusers einops eventlet facexlib flask_cors flask_socketio flaskwebgui
+pip install -q --force-reinstall kornia omegaconf pudb pyreadline3 pytorch-lightning realesrgan streamlit taming-transformers-rom1504 test-tube torch-fidelity
+pip install -q --force-reinstall torchmetrics transformers picklescan python-socketio==5.10.0 getpass_asterisk huggingface-hub
+pip install -q --force-reinstall pillow==10.0.1 xformers==0.0.23.dev687 
 pip install -q -e .
 
