@@ -1,4 +1,5 @@
 # This file predefines a few models that the user may want to install.
+
 sd-1/main/stable-diffusion-v1-5:
    description: Stable Diffusion version 1.5 diffusers model (4.27 GB)
    repo_id: runwayml/stable-diffusion-v1-5
