@@ -3,8 +3,8 @@
 sd-1/main/stable-diffusion-v1-5:
    description: Stable Diffusion version 1.5 diffusers model (4.27 GB)
    repo_id: runwayml/stable-diffusion-v1-5
-   recommended: True
-   default: True
+   recommended: False
+   default: False
    
 sd-1/main/stable-diffusion-v1-5-inpainting:
    description: RunwayML SD 1.5 model optimized for inpainting, diffusers version (4.27 GB)
@@ -24,17 +24,17 @@ sd-2/main/stable-diffusion-2-inpainting:
 sdxl/main/stable-diffusion-xl-base-1-0:
    description: Stable Diffusion XL base model (12 GB)
    repo_id: stabilityai/stable-diffusion-xl-base-1.0
-   recommended: True
+   recommended: False
 
 sdxl-refiner/main/stable-diffusion-xl-refiner-1-0:
    description: Stable Diffusion XL refiner model (12 GB)
    repo_id: stabilityai/stable-diffusion-xl-refiner-1.0
-   recommended: True
+   recommended: False
 
 sdxl/vae/sdxl-1-0-vae-fix:
    description: Fine tuned version of the SDXL-1.0 VAE
    repo_id: madebyollin/sdxl-vae-fp16-fix
-   recommended: True
+   recommended: False
 
 sd-1/main/Analog-Diffusion:
    description: An SD-1.5 model trained on diverse analog photographs (2.13 GB)
@@ -88,7 +88,7 @@ sd-1/controlnet/qrcode_monster:
 
 sd-1/controlnet/canny:
    repo_id: lllyasviel/control_v11p_sd15_canny
-   recommended: False
+   recommended: True
 
 sd-1/controlnet/inpaint:
    repo_id: lllyasviel/control_v11p_sd15_inpaint
@@ -209,17 +209,17 @@ sd-1/ip_adapter/ip_adapter_plus_face_sd15:
 
 sdxl/ip_adapter/ip_adapter_sdxl:
    repo_id: InvokeAI/ip_adapter_sdxl
-   recommended: True
+   recommended: False
    requires:
       - InvokeAI/ip_adapter_sdxl_image_encoder
    description: IP-Adapter for SDXL models
 
 any/clip_vision/ip_adapter_sd_image_encoder:
    repo_id: InvokeAI/ip_adapter_sd_image_encoder
-   recommended: True
+   recommended: False
    description: Required model for using IP-Adapters with SD-1/2 models
 
 any/clip_vision/ip_adapter_sdxl_image_encoder:
    repo_id: InvokeAI/ip_adapter_sdxl_image_encoder
-   recommended: True
+   recommended: False
    description: Required model for using IP-Adapters with SDXL models
