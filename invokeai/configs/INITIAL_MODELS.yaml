@@ -176,11 +176,11 @@ sdxl/t2i_adapter/sketch-sdxl:
 
 sd-1/embedding/EasyNegative:
    path: https://huggingface.co/embed/EasyNegative/resolve/main/EasyNegative.safetensors
-   recommended: True
+   recommended: False
 
 sd-1/embedding/ahx-beta-453407d:
    repo_id: sd-concepts-library/ahx-beta-453407d
-   recommended: True
+   recommended: False
 
 sd-1/lora/Ink scenery:
    path: https://civitai.com/api/download/models/83390
@@ -188,21 +188,21 @@ sd-1/lora/Ink scenery:
 
 sd-1/ip_adapter/ip_adapter_sd15:
    repo_id: InvokeAI/ip_adapter_sd15
-   recommended: True
+   recommended: False
    requires:
       - InvokeAI/ip_adapter_sd_image_encoder
    description: IP-Adapter for SD 1.5 models
 
 sd-1/ip_adapter/ip_adapter_plus_sd15:
    repo_id: InvokeAI/ip_adapter_plus_sd15
-   recommended: True
+   recommended: False
    requires:
       - InvokeAI/ip_adapter_sd_image_encoder
    description: Refined IP-Adapter for SD 1.5 models
 
 sd-1/ip_adapter/ip_adapter_plus_face_sd15:
    repo_id: InvokeAI/ip_adapter_plus_face_sd15
-   recommended: True
+   recommended: False
    requires:
       - InvokeAI/ip_adapter_sd_image_encoder
    description: Refined IP-Adapter for SD 1.5 models, adapted for faces
